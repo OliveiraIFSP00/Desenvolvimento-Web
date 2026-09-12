@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+DE+SAS+Guides&display=swap');
+
+
+body{
+     font-family: "Oswald", sans-serif;
+}
+
+h1{
+    font-style:"roboto";
+    align-items: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+   
+}
+
+p{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1;
+    text-indent: 30px;
+    text-decoration: initial;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    direction: rtl;
+}
+
+.um{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-size-adjust: 0.44;
+}
+
+.dois{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+DE+SAS+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #020617;
+}
+
+
+/* =========================
+   CONTAINER
+========================= */
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background: #6D28D9;
+
+    text-align: right;
+
+    padding: 10px 20px;
+}
+
+header h1 {
+    color: white;
+    line-height: 1.5;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header h2 {
+    color: white;
+    line-height: 1.5;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+main {
+    width: 100%;
+
+    display: flex;
+
+    /* Conteúdo esquerda + menu direita */
+    flex-direction: row;
+}
+
+
+/* =========================
+   ÁREA PRINCIPAL
+========================= */
+
+.principal {
+    width: 80%;
+    background-color: #020617;
+    padding: 15px;
+    order: 2;
+}
+
+
+/* =========================
+   PRIMEIRA CAIXA
+========================= */
+
+.um {
+    border: 1px solid #F5F7FF;
+
+    padding: 15px;
+
+    /* Espaço entre as duas caixas */
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   SEGUNDA CAIXA
+========================= */
+
+.dois {
+    border: 1px solid #F5F7FF;
+
+    padding: 15px;
+}
+
+
+/* =========================
+        TÍTULOS
+========================= */
+
+.principal h1 {
+    color: white;
+
+    line-height: 1.5;
+}
+
+.principal h2 {
+    color: #9859E2;
+
+    line-height: 1.5;
+
+    margin-top: 10px;
+}
+
+
+/* =========================
+       PARÁGRAFOS
+========================= */
+
+p {
+    color: #F5F7FF;
+
+    line-height: 1.5;
+}
+
+
+/* =========================
+       MENU DIREITO
+========================= */
+
+.auxiliar {
+    width: 20%;
+    background-color: #080B14;
+    min-height: 91vh;
+    padding: 20px;
+    order: 1;
+}
+
+
+/* TÍTULO MENU */
+
+.auxiliar h2 {
+    color: #9859E2;
+
+    line-height: 1.5;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   LISTA DO MENU
+========================= */
+
+nav ul {
+    list-style: none;
+}
+
+
+/* =========================
+   ITENS DO MENU
+========================= */
+
+nav li {
+    width: 100%;
+
+    min-height: 45px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    padding: 12px;
+
+    margin-top: 10px;
+}
+
+
+/* LINKS */
+
+nav li a {
+    text-decoration: none;
+
+    color: #8B5CF6;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   LINHAS DO MENU
+========================= */
+
+.barra {
+    border: none;
+
+    border-top: 1px solid #8B5CF6;
+
+    margin: 10px 0;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #080B14;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+footer p {
+    color: #F5F7FF;
+}

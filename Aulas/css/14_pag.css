@@ -1,0 +1,38 @@
+body{
+    background-image: url(https://i.pinimg.com/1200x/0d/6c/1b/0d6c1b9e335745cf224304410dfa70fc.jpg);
+    background-size: cover;
+    rotate: 90;
+    font-family: 'Courier New', Courier, monospace;
+}
+fieldset{
+    color: #FFFFFF;
+    backdrop-filter: blur(5px);
+}
+#teste{
+    align-items: center;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+#a{
+    align-items: center;
+    display: inline;
+    place-items: center;
+    justify-content: center;
+     
+}
+#bd3{   
+    background-image: url("imagens/chatgpt-fundo.png"); 
+    background-size: cover;
+}
+#bd2{
+    background: url(https://i.pinimg.com/1200x/2a/63/1d/2a631d3d6664c0c84bf78db4a758a2a9.jpg);
+    color: rgb(0, 0, 0);
+    background-size: cover;
+}
+#bd1{
+    background-color: black;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    color: white;
+}

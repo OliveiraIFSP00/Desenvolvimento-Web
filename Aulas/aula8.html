@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 8</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <form action=" ">
+        <fieldset>
+            <legend>Estado Civil</legend>
+            <p>
+                <input type="radio" name="estado_civil" id="casado" value="casado">
+                <label for="casado">Casado</label>
+            </p>
+            <p>
+                <input type="radio" name="estado_civil" id="divorciado" value="divorciado">
+                <label for="divorciado">Divorciado</label>
+            </p>
+            <p>
+                <input type="radio" name="estado_civil" id="solteiro" value="solteiro">
+                <label for="solteiro">Solteiro</label>
+            </p>
+            <p>
+                <input type="radio" name="estado_civil" id="viúvo" value="viúvo">
+                <label for="viúvo">Viúvo</label>
+            </p>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Equipamentos</legend>
+            <p>
+                <input type="checkbox" value="Monitor" name="monitor" id="monitor">
+                <label for="monitor">Monitor</label>
+            </p>
+             <p>
+                <input type="checkbox" value="impressora" name="impressora" id="impressora" value="impressora">
+                <label for="impressora">Impressora</label>
+            </p>
+             <p>
+                <input type="checkbox" value="mouse" name="mouse" id="mouse" value="mouse">
+                <label for="mouse">Mouse</label>
+            </p>
+             <p>
+                <input type="checkbox" value="teclado" name="teclado" id="teclado" value="teclado">
+                <label for="teclado">Teclado</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <p>
+                <label for="busca">Busca:</label>
+                <input type="search" name="busca" id="busca" >
+            </p>
+            <p>
+                <label for="cor">Cor:</label>
+                <input type="color" name="cor" id="cor">
+            </p>
+            <p>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" rows="5" cols="30"></textarea>
+            </p>
+            <p>
+                <label for="estado">Estado:</label>
+                <select name="estado" id="estado"> 
+                    <option value="0"> disable</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </select>
+            </p>
+            <p>
+                <label for="meios_transportes">Meios de Transportes</label>
+                <select name="meios_transportes" id="meios_transportes">
+                    <optgroup label="carros">
+                        <option value="fusca">Fusca</option>
+                        <option value="onix">Onix</option>
+                        <option value="207">Peugeot 207</option>
+                    </optgroup>
+                    <optgroup label="Motocicletas">
+                        <option value="cg125">CG125</option>
+                        <option value="falcon">Falcon</option>
+                    </optgroup>
+                </select>
+            </p>
+            
+        </fieldset>
+            <p>
+                <input type="submit" value="Enviar Dados">
+            </p>
+    </form>
+    <hr>
+    <details>
+        <summary>Exibir / Ocultar</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nesciunt cum dignissimos obcaecati laudantium vero provident explicabo, deserunt ipsam sapiente quod ab corrupti repudiandae, doloremque in ipsa. Eligendi, eos amet.</p>
+    </details>
+     
+</body>
+
+</html>

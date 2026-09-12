@@ -1,0 +1,79 @@
+body{
+    background-color: #0B1120;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: green;
+}
+
+h1[id="exemplo1"]{
+    color: #3B82F6;
+}
+
+h1[id="exemplo2"]{
+    color: #A855F7;
+}
+
+h1[id="exemplo3"]{
+    color: #A855F7;
+}
+
+h1[id="exemplo4"]{
+    color: #ffffff;
+}
+
+p{
+    color: #960d03;
+}
+
+p[title="Primeiro parágrafo"]{
+    color: #22D3EE;
+}
+
+p[class="dois"]{
+    color: #8B5CF6;
+}
+
+p[title="Terceiro parágrafo"]{
+    color: #22D3EE;
+}
+
+#exemplo2{
+    color: goldenrod;
+}
+
+input:focus{
+    background-color: rgb(52, 0, 185);
+}
+
+form{
+    color: white;
+}
+label{
+    color: white;
+}
+input{
+    color: white;
+}
+
+a:visited{
+    color: rgb(255, 0, 170);
+}
+
+p::first-line{
+    color: white;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+div::before{
+    content: "Nota";
+    color: white
+}
